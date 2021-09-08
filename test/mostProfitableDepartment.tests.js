@@ -1,7 +1,5 @@
-const mostProfitable = require("../mostProfitableDepartment.js");
-
-const mostProfitableDepartment = mostProfitable.mostProfitableDepartment;
-const mostProfitableDay = mostProfitable.mostProfitableDay;
+const mostProfitableDepartment = require("../mostProfitableDepartment.js");
+const mostProfitableDay = require("../mostProfitableDay.js");;
 const assert = require('assert');
 
 describe('Most profitable department tests', function () {
